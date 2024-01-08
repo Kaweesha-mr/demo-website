@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className="text-white">
             <div className="max-w-[800px] mt-[-96] w-full h-screen mx-auto text-center flex flex-col justify-center">
-                <p className="text-[#00df9a] font-bold p-2">GROWING WITH DATA ANALYTICS</p>
+                <p className="text-[#00df9a] font-bold p-2 p-4">GROWING WITH DATA ANALYTICS</p>
                 <h1 className="md:text-7xl sm:text-6xl text-4xl font-bold md:py-6"> Grow With Data</h1>
                 <div className="md:text-4xl sm:text-3xl text-xl font-bold">
                     <TypeAnimation
@@ -27,6 +27,8 @@ const Hero = () => {
                         repeat={Infinity}
                     />
                 </div>
+
+                <p className='md:text-2xl text-xl font-bold text-grey-500'>Monitor your data ANALYTICS to increase revenue for BTB,BTC & SASS platforms</p>
 
             </div>
         </div>
